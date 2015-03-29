@@ -1,0 +1,224 @@
+ @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900);
+    body { 
+background-image: url("img2.png");
+  background-color:#222244;
+  font-family:sans-serif;
+  font-size:0.8em;
+  color:#444444;
+
+}
+#page {
+    width:900px;
+    color:#433;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    margin-bottom:30px;
+}
+#head {
+    background-color:#65A7CA;
+    height:125px;
+    padding:20px;
+    -webkit-border-top-left-radius:40px;    
+    -webkit-border-top-right-radius:40px;    
+    -moz-border-radius-topleft:40px;    
+    -moz-border-radius-topright:40px;    
+}
+#main {
+    background-color:white;
+    width:100%;
+    height: 555px;
+
+}
+#body {
+  font-family: 'Source Sans Pro', sans-serif;
+    background-color:white;
+    color:#433;
+    margin-left:200px;
+    padding:20px;
+      overflow-y: scroll;
+  border-style: hidden;
+border-bottom: solid;
+}
+#foot {
+    color:#cccccc;
+    font-size:80%;
+    background-color:#61A3A0;
+    height:20px;
+    padding:15px;
+    text-align:center;
+    -webkit-border-bottom-left-radius:20px;    
+    -webkit-border-bottom-right-radius:20px;    
+    -moz-border-radius-bottomleft:20px;    
+    -moz-border-radius-bottomright:20px;    
+}
+#sidebar {
+    background-color:rgba(216, 229, 255, 0.76);
+    width:150px;
+    color:#433;
+}
+a.menu { 
+   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 18px;
+    display:block;
+    height:25px;
+    padding-top:10px;
+    padding-left:20px;
+    border-bottom:1px dotted grey;
+    text-decoration:none;
+    color:#866;
+
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-bottom-color: #eeefed;
+  margin-left: 10px;
+  padding-right: 25px;
+  padding-bottom: 10px;
+}
+a.menu:hover { 
+    color:black;
+    border-bottom:1px solid grey;
+    background-color:#ccc;
+}
+table.layout td {
+    margin:0px;
+    padding:0px;
+}
+#logo {
+    float:left;
+    height:100px;
+    width:120px;
+    margin-top:25px;
+    margin-left:25px;
+}
+#title {
+    margin-top:25px;
+    margin-left:150px;
+    color:white;
+    font-size:50pt;
+    font-weight:bold;
+    font-style:italic;
+}
+.about {
+    font-size:80%;
+    padding:20px 0px 20px 20px;
+    text-align:justify;
+    color:#666;
+}
+
+.TopMenuLeft {
+ 
+ display: block;
+  float: left;
+    height: 30px;
+  width: 600px;
+   border-bottom: dotted 1px #ccc;
+}
+.ObrCentriTitle {
+
+  display: block;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0px;
+  padding-bottom: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 13px;
+
+}
+
+a.tlinks:link {
+  text-decoration: none;
+  display: block;
+  float: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0px;
+  padding-bottom: 14px;
+  color: #0C38C2;
+  font-weight: 500;
+
+}
+a.menu:hover { 
+    color:black;
+    border-bottom:1px solid grey;
+    background-color:#ccc;
+}
+.ClearDiv {
+  display: block;
+  clear: both;
+}
+#par{
+      font-family: 'Source Sans Pro', sans-serif;
+
+}
+#h11{
+   margin-top: 80px;
+  margin-left: 180px;
+       font-family: 'Lobster', cursive;
+       font-size: 35px;
+
+}
+
+#Novosti {
+  overflow-y: scroll;
+  border-style: hidden;
+  float: right;
+  width: 650pt;
+  height: 500pt;
+  border-bottom: solid;
+  border-color: grey;
+}
+#t1{
+  overflow-y: scroll;
+  border-style: hidden;
+  width:900px;
+  height:574px;
+
+}
+#body2{
+  overflow-y: scroll;
+  border-style: hidden;
+  width:670;
+  height:574px;
+}
+
+table.gridtable {
+  font-family: verdana,arial,sans-serif;
+  font-size:11px;
+  color:#333333;
+  border-width: 1px;
+  border-color: #666666;
+  border-collapse: collapse;
+}
+table.gridtable th {
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #666666;
+  background-color: #dedede;
+}
+table.gridtable td {
+  border-width: 1px;
+  padding: 8px;
+  border-style: solid;
+  border-color: #666666;
+  background-color: #ffffff;
+}
+
+ul {
+    margin-left: 50px;
+}
+ul li:nth-child(1) {
+
+    list-style-image: url('google.jpg');
+
+}
+ul li:nth-child(2) {
+    list-style-image: url('microsoft.jpg');
+}
+ul li:nth-child(3) {
+    list-style-image: url('atland.png');
+}
+
