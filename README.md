@@ -1,3 +1,3 @@
 # Obrazovni informatički centar iProgIT
 
-http://iprogit-aratkovic.rhcloud.com/
+Website: http://iprogit-aratkovic.rhcloud.com/
