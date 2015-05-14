@@ -325,7 +325,12 @@ ul li:nth-child(3) {
 	  width: 180px;
   height: 20px;
 }
-#mail{
+#mail1{
+
+	  width: 180px;
+  height: 20px;
+}
+#mail2{
 
 	  width: 180px;
   height: 20px;
@@ -338,4 +343,39 @@ ul li:nth-child(3) {
 	  width: 74px;
   height: 26px;
   margin-left: 10px;
+}
+#mjesto
+{
+  width: 180px;
+  height: 20px;
+}
+#pbroj{
+	  width: 100px;
+  height: 20px;
+}
+#slika1{
+	float:left;
+}
+
+img.linkovi{
+	float: left;
+	width: 50px;
+	height: 50px;
+}
+
+#mail3
+{
+
+	  width: 180px;
+  height: 20px;
+
+}
+
+#female
+{font-family: Candara,Trebuchet MS,sans-serif; 
+		font-size: 25px; font-weight: bold; }
+#male{font-family: Candara,Trebuchet MS,sans-serif; 
+		font-size: 15px; font-weight: bold; }
+span.error{
+	color: red;
 }
