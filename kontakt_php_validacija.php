@@ -59,7 +59,7 @@ $validacija = true;
      
    }
    if (empty($_POST["pbroj"])) {
-     $pbrojErr = "Postancki broj ne smije biti prazan!";
+     $pbrojErr = "Poštanski broj ne smije biti prazan!";
                  $validacija = false;
 
    } else {
@@ -67,7 +67,7 @@ $validacija = true;
      $pbroj = test_input($_POST["pbroj"]);
       if (!is_numeric($pbroj)) 
                 {
-  $pbrojErr = "Postacki broj se mora sastojati od brojeva!";
+  $pbrojErr = "Poštanski broj se mora sastojati od brojeva!";
                  $validacija = false;
 
 }
