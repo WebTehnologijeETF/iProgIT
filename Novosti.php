@@ -21,7 +21,7 @@
          
          foreach ($rezultat as $novosti) {
               $x = $veza->query("select  count(*) broj from komentari k where k.novost=".$novosti['id']." order by k.datum desc");   
-              //$y=$x->fetchColumn();
+              
              $id=$novosti['id'];
          
          
